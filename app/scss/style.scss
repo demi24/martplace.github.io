@@ -1,9 +1,82 @@
 @import "vars";
 @import "libs";
 @import "fonts";
+@import "global";
 
+.headerbg {
+  background-color: #eef1f3;
+}
+.top__header {
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.users__nav-btn {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  background-color: $blue-text;
+  color: #fff;
+  padding: 13px 18px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: 50px;
+}
+.user-icons {
+  margin-right: 33px;
+}
+.user__auth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-avatars {
+  background-color: #7c7979;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.user__login {
+  margin-left: 22px;
+  font-weight: 500;
+  line-height: 22px;
+  color: $header-text;
+  span {
+    display: block;
+    font-size: 15px;
+    color: #0674ec;
+  }
+}
+.user-icons {
+  position: relative;
+ 
+}
+.user-icons img{
+    vertical-align: middle;
+    
+}
+.notific {
+  color: #fff;
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: -15px;
+  right: -20px;
+  border-radius: 11px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+  }
 
-
+.notific-red {
+  background-color: #ff6a6c;
+}
+.notific-green {
+  background-color: #62d03b;
+}
+.notific-blue {
+  background-color: $blue-text;
+}
 
 
 @import "media";
