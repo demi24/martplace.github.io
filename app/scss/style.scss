@@ -3,10 +3,10 @@
 @import "fonts";
 @import "global";
 
-.lgray-bg{
-background-color: #f6f7fb;
+.lgray-bg {
+  background-color: #f6f7fb;
 }
-.dgray-bg{
+.dgray-bg {
   background-color: #eef1f3;
 }
 .top__header {
@@ -312,7 +312,8 @@ select {
   padding: 40px 30px 40px 40px;
   margin-bottom: 50px;
 }
-.weekly__products, .followers{
+.weekly__products,
+.followers {
   &-title {
     font-size: 30px;
     color: #000;
@@ -429,7 +430,6 @@ select {
   margin-top: 10px;
   display: flex;
   align-items: center;
-  
 }
 .products-likes {
   margin-left: 20px;
@@ -559,47 +559,107 @@ select {
     padding: 20px 30px;
   }
 }
-.statistics-stars{
-margin-left: 15px;
+.statistics-stars {
+  margin-left: 15px;
 }
 //end release
 // start statistics
-  .statistics{
-    background-color: rgba(0, 6, 6, 0.8);
-    padding: 198px 0;
-    text-align: center;
+.statistics {
+  background-color: rgba(0, 6, 6, 0.8);
+  padding: 198px 0;
+  text-align: center;
 }
-  .statistics__items-inner{
-    display: flex;
-    justify-content: space-between;
+.statistics__items-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.statistics__item {
+  align-self: flex-end;
+}
+.statistics-icon {
+  margin-bottom: 50px;
+}
+.statistics-number {
+  margin-bottom: 10px;
+  font-size: 36px;
+}
+.orange-col {
+  color: #feb71d;
+}
+.blue-col {
+  color: #58c9e9;
+}
+.green-col {
+  color: #77de51;
+}
+.red-col {
+  color: #ff6a6d;
+}
+.statistics-text {
+  font-size: 18px;
+  line-height: 36px;
+  color: #fff;
+}
+// end statistics
+//start advantages
+.advantages {
+  padding: 120px 0px;
+}
+.advantages__title-main {
+  text-align: center;
+  margin-bottom: 29px;
+  font-size: 36px;
+  color: #000;
+  line-height: 28px;
+  span {
+    color: #0674ec;
   }
-  .statistics-icon{
-    margin-bottom: 50px;
-  }
-  .statistics-number{
-    margin-bottom: 10px;
-    font-size: 36px;
-  }
-  .orange-col{
-    color: #feb71d;
-  }
-  .blue-col{
-    color: #58c9e9;
-  }
-  .green-col{
-    color: #77de51;
-  }
-  .red-col{
-    color: #ff6a6d;
-  }
-  .statistics-text{
-    font-size: 18px;
-    line-height: 36px;
-    color: #fff;
-  }
-  // end statistics
-
-
-
-
-
+}
+.advantages__title__text {
+  max-width: 671px;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 30px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.advantages__items-inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.advantages__item {
+  max-width: 361px;
+  padding: 56px 35px;
+  box-shadow: 0 2px 50px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  position: relative;
+}
+.advantages__num {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 34px;
+  height: 37px;
+  opacity: 0.2;
+  color: #5c87f8;
+  font-size: 48px;
+}
+.advantages__icon {
+  margin-bottom: 53px;
+}
+.advantages__title {
+  font-size: 24px;
+  margin-bottom: 29px;
+  font-weight: 500;
+}
+.advantages__text {
+  color: #555555;
+  line-height: 30px;
+  font-size: 16px;
+}
+//end advantages
