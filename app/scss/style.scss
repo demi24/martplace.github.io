@@ -697,7 +697,7 @@ select {
   max-width: 190px;
   margin: 0 auto;
 }
-.purple{
+.purple {
   color: #7347c1;
 }
 .purple a {
@@ -706,7 +706,7 @@ select {
   padding: 26px;
   text-align: center;
 }
-.blue{
+.blue {
   color: #0674ec;
 }
 .blue a {
@@ -835,7 +835,7 @@ select {
 //start guarantee
 .guarantee__box-inner {
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 .border-line {
   width: 1px;
@@ -846,28 +846,137 @@ select {
   margin: 0 auto;
   text-align: center;
   padding: 60px 0px 60px;
-  img{
+  img {
     margin-bottom: 30px;
   }
 }
-.guarantee-title{
+.guarantee-title {
   font-size: 24px;
   color: #000;
 }
 //end guarantee
 // start join
-.join{
+.join {
   background-image: linear-gradient(to left, #0d3ef2 0%, #7221a0 100%);
   padding: 110px 0;
   text-align: center;
 }
-.join-title{
+.join-title {
   color: #fff;
   font-size: 36px;
   margin-bottom: 23px;
 }
-.join-text{
+.join-text {
   color: #e7e7e7;
   margin-bottom: 50px;
 }
 //end join
+//start footer
+.footer__top {
+  background-color: #262b30;
+  padding: 128px 0px 125px;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  color: #ababab;
+}
+.footer__contacts {
+  padding: 0px 30px;
+  & .header__logo {
+    padding-bottom: 20px;
+    img {
+      width: 163px;
+      height: 40px;
+    }
+  }
+}
+.contacts-box {
+  padding-left: 30px;
+}
+.footer-phone {
+  margin-top: 32px;
+  margin-bottom: 10px;
+  position: relative;
+  &::before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 17px;
+    background-image: url(../img/footer/phone-handset.png);
+    background-repeat: no-repeat;
+    left: -25px;
+    top: 5px;
+  }
+}
+.email {
+  margin-bottom: 10px;
+  position: relative;
+  &::before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 17px;
+    background-image: url(../img/footer/envelope.png);
+    background-repeat: no-repeat;
+    left: -25px;
+    top: 10px;
+  }
+}
+.location {
+  margin-bottom: 10px;
+  position: relative;
+  &::before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 17px;
+    background-image: url(../img/footer/map-marker.png);
+    background-repeat: no-repeat;
+    left: -25px;
+    top: 20px;
+  }
+}
+.footer__about {
+  max-width: 230px;
+  width: 100%;
+  padding: 0px 30px;
+  color: #fff;
+  li {
+    color: #ababab;
+    line-height: 30px;
+  }
+}
+.footer-title {
+  font-size: 18px;
+  margin-bottom: 36px;
+  color: #fff;
+}
+.footer-search {
+  margin-top: 35px;
+  button {
+    color: #fff;
+    max-width: 120px;
+    width: 100%;
+  }
+}
+.footer__bottom{
+  background-color: #192027;
+  text-align: center;
+  padding: 40px 0;
+  span{
+    color: #fff;
+  }
+}
+.footer__subscr{
+  max-width: 360px;
+  width: 100%;
+}
+.footer__social{
+
+  margin-top: 48px;
+  img{
+    margin-right: 13px;
+  }
+}
+//end footer
